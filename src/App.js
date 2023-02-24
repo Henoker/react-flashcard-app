@@ -56,6 +56,12 @@ useEffect(() => {
 
   return (
     <>
+    <div className="main-header">
+      <h1 className="main-title">Flashcardfy</h1>
+    </div>
+    <div>
+      <p className="main-text">Test your knowledge and have fun!!!</p> 
+    </div>
     <form className="header" onSubmit={handleSubmit}>
       <div className="form-group">
         <label htmlFor="category">Category</label>
