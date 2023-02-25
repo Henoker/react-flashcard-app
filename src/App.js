@@ -2,6 +2,7 @@ import React, {useState, useEffect, useRef} from "react";
 import FlashcardList from "./components/FlashcardList";
 import './app.css';
 import axios from "axios";
+import {AiFillCaretDown} from 'react-icons/ai'
 
 function App() {
   const [flashcards, setflashcards] = useState([])
@@ -73,6 +74,7 @@ useEffect(() => {
           })}
           
         </select>
+        {/* <AiFillCaretDown className="select-icon"/> */}
       </div>
       <div className="form-group">
         <label htmlFor="amount">Number of Questions</label>
