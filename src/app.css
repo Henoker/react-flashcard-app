@@ -18,6 +18,8 @@ body {
 .main-text {
     text-align: center;
     color: white;
+    font-size: 1.25rem;
+    
     
 }
 .container {
@@ -95,7 +97,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color: #F1F1E6;
@@ -110,41 +112,64 @@ body {
 }
 
 .form-group > label {
-    color: #777;
-    font-size: .75rem;
+    color: #000;
+    font-size: 1.25rem;
     margin-bottom: .25rem;
+    padding-left: 2.1rem;
+}
+
+.form-group > input {
+    font-size: 1.25rem;
+    padding: 0.1em 1.5em;
+    background-color: #011f4b;
+    color: #EAEEFF;
 }
 
 .btn {
-    background-color: hsl(200, 100%, 50%);
-    color: white;
-    padding: .5em 1em;
-    border-radius: .3em;
-    border: none;
+    color: #000;
+    padding: .8em 1em;
+    border-radius: .5em;
+    border: 3px solid #011f4b;
     cursor: pointer;
+    letter-spacing: 4px;
+    font-size: 1.25rem;
+    outline: none;
+    transition: ease-out 0.3s;
+    position: relative;
+    z-index: 1;
 }
 
 .btn:hover {
-    background-color: hsl(200, 100%, 40%);
-}
-
-#category {
-    border: none;
-    appearance: none;
-    padding: 0 30px 0 15px;
-    width: 100%;
     color: white;
-    background-color: #2873ff;
-    font-size: 20px;
+   
 }
 
-.select-icon {
-    width: 50px;
-    height: 100%;
+.btn:before {
+    transition: 0.5s all ease;
     position: absolute;
-    top: -125px;
-    right: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #011f4b;
 }
+
+.btn:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+select {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+    font-size: 1.25rem;
+    padding: 0.1em 0.5em;
+    margin-left: 0.3em;
+    background-color: #011f4b;
+    color: #EAEEFF;
+}
+

@@ -2,7 +2,7 @@ import React, {useState, useEffect, useRef} from "react";
 import FlashcardList from "./components/FlashcardList";
 import './app.css';
 import axios from "axios";
-import {AiFillCaretDown} from 'react-icons/ai'
+// import {AiFillCaretDown} from 'react-icons/ai'
 
 function App() {
   const [flashcards, setflashcards] = useState([])
@@ -65,7 +65,7 @@ useEffect(() => {
     </div>
     <form className="header" onSubmit={handleSubmit}>
       <div className="form-group">
-        <label htmlFor="category">Category</label>
+        <label className="label-text" htmlFor="category"> Select Category</label>
         <select id="category" ref={categoryEl}>
           {categories.map(category => {
             return <option value={category.id} key={category.id}>
@@ -74,6 +74,7 @@ useEffect(() => {
           })}
           
         </select>
+        <span className="custom-arrow"></span>
         {/* <AiFillCaretDown className="select-icon"/> */}
       </div>
       <div className="form-group">
