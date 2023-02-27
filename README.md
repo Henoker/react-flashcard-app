@@ -1,9 +1,29 @@
-# Getting Started with Create React App
+# Flashcardify General Knowledge React app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![Book Store First Page Look!](public/facevalue.png) 
 
+<details>
+
+
+
+##### For the best experience, please use a device with a width of at least 350px
+
+
+</details>
+## About the app
+
+This app is based on web simplfied Youtube channel with some modifications.
+
+## Built using:
+- React Js with pure css
+
+
+## Getting started:
+- Clone this repository or fork it
+    - To clone this repository type git clone `https://github.com/Henoker/react-flashcard-app` on your command line
+    - To fork this repository, click fork button of this repository then type git clone `https://github.com/<your username>/react-flashcard-app`
+- Install all the dependencies of this project by typing `yarn install` on the command line
 In the project directory, you can run:
 
 ### `yarn start`
@@ -11,60 +31,15 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- You project will be accessible in your localhost or local network.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
+Distributed under the [MIT](https://github.com/Henoker/react-flashcard-app/blob/master/LICENSE) License. See [`LICENSE`](https://github.com/Henoker/react-flashcard-app/blob/master/LICENSE) for more information.
 
-### `yarn build`
+## Contact
+- Henock Beyene Tesfatsion - [hennybany@gmail.com](mailto:hennybany@gmail.com)
+- Project link: https://github.com/Henoker/react-flashcard-app
+## Love my effort?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href='https://www.linkedin.com/in/henock-beyene-tesfatsion-921ba54b/' target='_blank'><img height='35' style='border:0px;height:34px;' src='public/download.jpg' border='0' alt='Hire me at LinkediN' />
